@@ -1,8 +1,59 @@
 <!-- wp:group {"tagName":"header","layout":{"type":"constrained"}} -->
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.nav{
+    background-color:white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    padding: 0px;
+}
+.nav_side{
+    float: rigt;
+    width: 40%;
+    margin-top: 40px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;  
+    color: black;
+    font-weight: bolder;
+    font-family: cosmic, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+
+</style>
 
 <header>
-  
+    <!-- wp:html -->
   <nav class="nav nav_top">
         <div class="logo">
             <a href="#"><img src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png" width="100" height="100" alt="Logo"></a>
@@ -16,5 +67,7 @@
 
         </div>
     </nav>
+    <!-- /wp:html -->
 </header>
 <!-- /wp:group -->
+

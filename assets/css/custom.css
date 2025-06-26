@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color:white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    padding: 0px;
+}
+.nav_side{
+    float: rigt;
+    width: 40%;
+    margin-top: 40px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;  
+    color: black;
+    font-weight: bolder;
+    font-family: cosmic, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+.main{
+    background-image: url('../e\ commerce/image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh ;
+}
+.main .main_content{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main .main_content h2{
+    color: #32c8f6;
+    font-size: 50px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+}
+.main .main_content h2 span{
+    font-size: 15px;
+    opacity: 0.9;
+    color: #f66438;
+    font-weight: lighter;
+    line-height: 20px;
+}
+.main .main_content .btn{
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 45%;
+
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.main .main_content .btn a:hover{
+    background-color: blueviolet;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+    
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product{
+    padding-bottom: 50px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+.product .product_container .item{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+}
+.product .product_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+
+}
+.product .product_container .item .item_content a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.product .product_container .item .item_content a:hover{
+    background-color: blueviolet;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s; 
+}
+.product .product_btn{
+    text-align: center;
+    margin: 50px;
+
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.product .product_btn a:hover{
+    background-color: blueviolet;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s; 
+}
+.keypoints{
+    padding: 50px;
+}
+.keypoints h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.keypoints .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoints .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: left;
+    font-family: cosmic, sans-serif;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.keypoints .key_container .key_img{
+    width: 30%;
+    float: right;
+    margin-right: 155px;
+}
+.keypoints .key_container .key_img img{
+    width: 100%;
+}
+.testi{
+    padding: 50px;
+    padding-top: 150px;
+
+}
+.testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;  
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+    height: 100%;
+}
+.testi .testi_container .item{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.testi .testi_container .item .item_content{
+    text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+}
+.testi .testi_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+
+}
+.team{
+    padding: 50px;
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase
+
+}
+.team .team_container{
+    display: flex;
+}
+.team .team_container .team_video{
+    width: 40%;
+    padding: 20px;   
+}
+.team .team_container .team_video video{
+    width: 100%;
+    border: 10px solid orange;
+    outline: none;
+}
+.team .team_container .team_content{
+    width: 55%;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+.team .team_container .team_content p{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif; 
+}
+.feed{
+    padding: 50px;
+    background-image: url('bg_img.jpg');
+    background-size: cover;
+}
+.feed h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase
+}
+.feed .feed_forms{
+    text-align: center;
+}
+.feed .feed_forms form{
+    padding: 20px;
+}
+.feed .feed_forms form input{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feed .feed_forms form textarea{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feed .feed_forms form button{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.feed .feed_forms form button:hover{
+    background-color: blueviolet;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+}
+ 
+.about_us{
+    padding: 80px;
+    padding-top: 140px;
+}
+.about_us h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic, sans-serif;
+    text-transform: uppercase; 
+}
+.about_us p{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-family: cosmic, sans-serif;
+    line-height: 25px;
+
+}
+.contact_container{
+    padding: 100px; 
+}
+.contact_container h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    font-family: cosmic, sans-serif;
+    text-transform: uppercase; 
+}
+.contact_container .g_map{
+    border: 10px solid purple;
+}
+.contact_container .contact_content{
+    padding: 20px;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size: 14px;
+    font-family: cosmic, sans-serif;
+    line-height: 25px; 
+}
+
+footer{
+    background-color:  #95928B;
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}footer .page h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .pages a:hover{
+    color: aqua;
+}
+footer .doc{
+    text-align: center;
+}footer .page h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .doc a:hover{
+    color: aqua;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+}
+footer .contacts{
+    text-align: center;
+}
+footer .contacts h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .contacts a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .contacts a:hover{
+    color: white;
+}
+
+.features{
+    padding: 50px;
+}
+.features h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 100px;
+    text-transform: uppercase
+    
+
+}
+
+.features .features_container .features_img{
+    width: 50%;
+    padding: 20px;
+
+    
+}
+
+.features .features_container .features_content{
+    width: 55%;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+.features .features_container .features_content p{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif; 
+    align-content: right;
+}
+
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
